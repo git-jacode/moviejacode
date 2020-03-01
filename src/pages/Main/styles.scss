@@ -1,0 +1,42 @@
+.container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300;
+
+    h1 {
+        color: #fff;
+        font-family: ubuntu;
+        margin-top: 20px;
+    }
+
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 10px;
+    text-align: justify;
+
+    img {
+        width: 220px;
+        height: 320px;
+        align-self: center;
+        padding-top: 20px;
+        cursor: pointer;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
