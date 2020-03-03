@@ -1,0 +1,12 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+
+    display: flex;
+    color: #fff;
+
+    button {
+        width: 100px;        
+        margin: 10px;
+    }
+}

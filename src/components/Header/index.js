@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 
 class Header extends Component {
@@ -8,7 +9,9 @@ class Header extends Component {
     return (
       <>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="">Movie Now</Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand href="">Movie Now</Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto" style={{ marginLeft: '80%' }}>
